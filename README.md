@@ -1,10 +1,10 @@
-# Sootz API
+# MKT ADMIN API
 
-## Url: https://sootz-api.vercel.app/
+## Url: https://mkt-admin-api.vercel.app/
 
 ## Rotas
 
 * /api
-* /api/email/send
+* /api/users
 
 ### Em desenvolvimento...
