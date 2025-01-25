@@ -2,9 +2,9 @@
 
 ## Url: https://mkt-admin-api.vercel.app/
 
-## Rotas
+## Routes
 
 * /api
 * /api/users
 
-### Em desenvolvimento...
+### In developing...
