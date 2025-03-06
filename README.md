@@ -27,12 +27,12 @@ FIREBASE_CLIENT_X509_CERT_URL="https://www.googleapis.com/robot/v1/metadata/x509
 FIREBASE_UNIVERSE_DOMAIN="googleapis.com"
 
 # Variáveis do App Firebase
-VITE_FIREBASE_API_KEY = "AIzaSy1234567890abcdefgHIJKLMNOPQRST"
-VITE_FIREBASE_AUTH_DOMAIN = "exemplo-app.firebaseapp.com"
-VITE_FIREBASE_PROJECT_ID = "exemplo-app"
-VITE_FIREBASE_STORAGE_BUCKET = "exemplo-app.firebasestorage.app"
-VITE_FIREBASE_MESSAGING_SENDER_ID = "123456789012"
-VITE_FIREBASE_APP_ID = "1:123456789012:web:abcdef1234567890abcdef"
+FIREBASE_API_KEY = "AIzaSy1234567890abcdefgHIJKLMNOPQRST"
+FIREBASE_AUTH_DOMAIN = "exemplo-app.firebaseapp.com"
+FIREBASE_PROJECT_ID = "exemplo-app"
+FIREBASE_STORAGE_BUCKET = "exemplo-app.firebasestorage.app"
+FIREBASE_MESSAGING_SENDER_ID = "123456789012"
+FIREBASE_APP_ID = "1:123456789012:web:abcdef1234567890abcdef"
 ```
 As variáveis da conta de serviço são necessárias para o uso do firebase-admin e podem ser conseguidas pelo site, nas configurações do projeto -> contas de serviço -> SDK Admin do Firebase -> Gerar nova chave privada. As variáveis do App também podem ser obtidas nas configurações do projeto, mas na aba Geral, em "Apps da Web".<br/>
 
@@ -40,7 +40,7 @@ As variáveis da conta de serviço são necessárias para o uso do firebase-admi
 
 ## Rotas disponíveis
 
-* /api/users
+* (POST) /api/users/delete/:id
 
 ## Autores
 
